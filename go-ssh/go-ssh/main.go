@@ -37,7 +37,7 @@ func main() {
 
 	// shell命令
 	//cmdStr := fmt.Sprintf("ping www.baidu.com -c 5")
-	cmdStr := fmt.Sprintf("python3 -u /server/scripts/wu-test.py")
+	cmdStr := "python3 -u /server/scripts/wu-test.py"
 	// 执行命令
 	err = session.Run(cmdStr)
 	if err != nil {

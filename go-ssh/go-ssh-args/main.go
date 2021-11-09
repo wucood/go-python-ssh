@@ -11,7 +11,7 @@ func main() {
 	userName := os.Args[1]
 	passwd := os.Args[2]
 	host := os.Args[3]
-	cmdStr := fmt.Sprintf("python3 -u /server/scripts/wu-test.py")
+	cmdStr := "python3 -u /server/scripts/wu-test.py"
 	shell(userName, passwd, host, cmdStr)
 }
 
